@@ -24,5 +24,8 @@ class Earthquake(db.Model, SerializerMixin):
             'id': self.id,
             'magnitude': self.magnitude,
             'location': self.location,
+            'year': self.year,
             'year': self.year
         }
+
+
